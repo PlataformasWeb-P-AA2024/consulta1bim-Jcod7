@@ -8,7 +8,6 @@ def crear_base():
     db = dbUrl['consulta_01']
     # Creamos la colección jugadores
     return db
-    
 
 if __name__ == "__main__":   
     db = crear_base()
