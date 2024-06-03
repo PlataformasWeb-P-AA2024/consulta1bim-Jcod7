@@ -1,3 +1,4 @@
+# Archivo de configuraciones
 from pymongo import MongoClient
 
 def crear_base():
@@ -8,7 +9,7 @@ def crear_base():
     db = dbUrl['consulta_01']
     # Creamos la colección jugadores
     return db
-
+    
 if __name__ == "__main__":   
     db = crear_base()
     print("La base de datos consulta_01 se ha creado con éxito")
